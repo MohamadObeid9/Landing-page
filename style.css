@@ -2,6 +2,14 @@
     margin: 0px;
     padding: 0px;
 }
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+a{
+    text-decoration: none;
+}
 .header-content{
     display: flex;
     justify-content: center;
@@ -12,8 +20,7 @@
     display: flex;
     justify-content: space-between;
 }
-ul{
-    list-style-type: none;
+.rest-header{
     display: flex;
-    gap: 15px;
+    justify-content: space-between;
 }
