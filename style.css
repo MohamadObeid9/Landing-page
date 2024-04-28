@@ -39,9 +39,15 @@ img{
 /* quotes */
 .quote-section{
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
 }
-.Quote{
+div.Quote{
     font-weight: 36px;
     color: #1f2937;
-    font-style: light italic;
+    font-style: italic;
+}
+.author{
+    display: flex;
+    justify-content: end;
 }
