@@ -24,7 +24,7 @@ img{
 }
 .header{
     padding: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
     display: flex;
     justify-content: center;
 }
@@ -52,7 +52,7 @@ span{
 .left-header,.rest-header{
     width: 400px;
     display: flex;
-    gap: 40px;
+    gap: 80px;
     flex-direction: column;
     flex-wrap: wrap;
 }
@@ -73,7 +73,7 @@ span{
 }
 .pictures{
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,4 +81,25 @@ span{
 }
 .card{
    max-width: 150px;
+}
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+}
+.quote{
+    font-size: 36px;
+    font-style:  italic;
+    color: #1F2937;
+}
+.quote-content{
+    max-width: 800px;
+}
+.author{
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
 }
