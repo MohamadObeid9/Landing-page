@@ -132,3 +132,11 @@ button{
     color: #F9FAF8;
     width: 100px;
 }
+.footer{
+    color: #E5E7EB;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
